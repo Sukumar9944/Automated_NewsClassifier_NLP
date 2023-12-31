@@ -1,0 +1,5 @@
+pandas
+selenium
+spacy
+streamlit
+scikit-learn
