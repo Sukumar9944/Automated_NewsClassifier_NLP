@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import time
-import requests
 from Model_Training.processor import processing
 
 # Setting Webpage Configurations
@@ -9,17 +8,9 @@ st.set_page_config(page_icon="⚙",page_title="Ai News Classifier", layout="wide
 
 st.title(':red[Classy AI] - Automated News Classifier🚀')
 
-# GitHub raw content URLs
-model_url = 'https://github.com/Sukumar9944/Automated_NewsClassifier_NLP/raw/main/Artifacts/model.pkl'
-vectorizer_url = 'https://github.com/Sukumar9944/Automated_NewsClassifier_NLP/raw/main/Artifacts/vectorizer.pkl'
-
-# Download the files from GitHub
-model_content = requests.get(model_url).content
-vectorizer_content = requests.get(vectorizer_url).content
-
 # Loading the model and the Vectorizer
-model = pickle.loads(model_content)
-vectorizer = pickle.loads(vectorizer_content)
+model = pickle.load(open(r'F:\GUVI_DATA_SCIENCE\Project\Automated_NewsClassifier_NLP\Artifacts\model.pkl', 'rb'))
+vectorizer = pickle.load(open(r'F:\GUVI_DATA_SCIENCE\Project\Automated_NewsClassifier_NLP\Artifacts\vectorizer.pkl', 'rb'))
 
 # 'Microsoft’s upcoming Surface lineup will feature a next-gen NPU: Report'
 text = st.text_input('Enter your Headline')
