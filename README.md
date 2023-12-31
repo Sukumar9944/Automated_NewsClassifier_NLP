@@ -8,4 +8,4 @@ The project involves the following key components:
 
 - Streamlit App: Implements a user-friendly web application using Streamlit, allowing users to input a news headline and receive the predicted category.
 
-- Artifact Persistence: Saves the trained model and necessary preprocessing artifacts (e.g., vectorizer) using the pickle library for future use.
+- Artifact Persistence: Saves the trained model and necessary preprocessing artifacts (e.g., vectorizer, model) using the pickle library for future use.
