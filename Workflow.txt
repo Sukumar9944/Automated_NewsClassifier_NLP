@@ -1,0 +1,24 @@
+Workflow
+
+1. Gather Data using Selenium - CNBC
+
+i. Investing - 200
+
+ii. Automobile - 200
+
+iii. Politics - 200
+
+iv. Technology - 201
+
+v. health and Science - 200
+
+Total_rows = 1001
+
+
+2. Text Preprocessing using Spacy
+
+
+3. Model Training and Evaluation
+
+
+4. Streammlit web app Development
