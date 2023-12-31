@@ -42,6 +42,6 @@
 - Datasets/: Contains the datasets used for model training
 - Model_Training/: Contains code for data processing and model training.
 - Artifacts/: Stores the saved model and vectorization artifacts.
-- text_preprocessing.ipynb: Contains the code for text preprocessing using Spacy module
+- Data_preprocessing/: Contains the code for text preprocessing using Spacy module
 - app.py: Includes the Streamlit web application code.
 - Workflow.txt: contains the Basic workflow for the projects
