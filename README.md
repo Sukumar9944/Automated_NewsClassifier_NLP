@@ -11,3 +11,10 @@ The "Automated News Classifier NLP" project is a natural language processing (NL
 - Streamlit App: Implements a user-friendly web application using Streamlit, allowing users to input a news headline and receive the predicted category.
 
 - Artifact Persistence: Saves the trained model and necessary preprocessing artifacts (e.g., vectorizer, model) using the pickle library for future use.
+
+## Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/Automated_NewsClassifier_NLP.git
