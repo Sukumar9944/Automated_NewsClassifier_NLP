@@ -18,7 +18,7 @@ model_content = requests.get(model_url).content
 vectorizer_content = requests.get(vectorizer_url).content
 
 # Loading the model and the Vectorizer
-model = pickle.loads(model_content))
+model = pickle.loads(model_content)
 vectorizer = pickle.loads(vectorizer_content)
 
 # 'Microsoft’s upcoming Surface lineup will feature a next-gen NPU: Report'
