@@ -1,6 +1,8 @@
+# Automated News Classifier NLP
+
 The "Automated News Classifier NLP" project is a natural language processing (NLP) application that leverages machine learning to automatically classify news headlines into different categories such as Technology, Automobile, Health and Science, Investing, and Politics. The system uses a trained model to predict the category of a given news headline based on its textual content.
 
-The project involves the following key components:
+## Features:
 
 - Data Processing: Utilizes the spaCy library for text processing, including lowercasing, removing stop words, and lemmatization.
 
