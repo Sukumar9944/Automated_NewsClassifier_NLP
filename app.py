@@ -18,8 +18,8 @@ model_content = requests.get(model_url).content
 vectorizer_content = requests.get(vectorizer_url).content
 
 # Loading the model and the Vectorizer
-model = pickle.loads(open(model_content, 'rb'))
-vectorizer = pickle.loads(open(vectorizer_content, 'rb'))
+model = pickle.loads(model_content))
+vectorizer = pickle.loads(vectorizer_content)
 
 # 'Microsoft’s upcoming Surface lineup will feature a next-gen NPU: Report'
 text = st.text_input('Enter your Headline')
